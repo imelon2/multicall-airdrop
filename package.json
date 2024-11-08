@@ -1,0 +1,26 @@
+{
+  "name": "multicall-airdrop",
+  "version": "1.0.0",
+  "description": "MultiCall3-Based Airdrop Implementation",
+  "main": "index.js",
+  "scripts": {
+    "gen": "ts-node script/generate-factory.ts",
+    "deploy:multicall": "ts-node script/deploy-multicall3.ts",
+    "deploy:erc20": "ts-node script/deploy-erc20.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typechain/ethers-v5": "^11.1.2",
+    "cli-table": "^0.3.11",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/cli-table": "^0.3.4",
+    "@types/node": "^22.9.0",
+    "@types/yargs": "^17.0.33",
+    "typescript": "^5.6.3"
+  }
+}
