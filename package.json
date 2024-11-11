@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "gen": "ts-node script/generate-factory.ts",
+    "airdrop:native": "ts-node package/airdrop-native/airdrop.ts",
     "deploy:multicall": "ts-node script/deploy-multicall3.ts",
     "deploy:erc20": "ts-node script/deploy-erc20.ts"
   },

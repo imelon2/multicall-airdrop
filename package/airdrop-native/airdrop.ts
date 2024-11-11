@@ -66,7 +66,9 @@ async function main() {
             
             /** Save Result File */
             let content = table.toString();
-            generateResult(content, "mock_native_airdrop_result");
+            const file = generateResult(content, "mock_native_airdrop_result");
+            console.log(`Check the result in the ${file}`);
+            
         } else {
             console.log(`Fail airdrop transaction: ${receipt.transactionHash}`);
         }

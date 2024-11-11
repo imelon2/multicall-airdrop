@@ -29,7 +29,10 @@ export const mock_accounts_250 = () => {
 }
 
 export const generateResult = (content:string,fileName:string) => {
-    fs.writeFileSync(RESULT_PATH+"/"+fileName, content);
+    const filePath = RESULT_PATH+"/"+fileName
+    fs.writeFileSync(filePath, content);
+
+    return filePath
 }
 
 export const getReturnData = async (
