@@ -23,7 +23,7 @@ MultiCall3 enables distribution to multiple recipients in a single transaction, 
 
 ## Quick Start with Mock data
 > [!IMPORTANT]
-> This tutorial will airdrop to 250 accounts created with [mock data](./package/mock/account_250). 
+> This tutorial will airdrop to 250 accounts created with [mock data](./package/mock/account_250) and send 0.01 ETH to each account *(total 2.5 eth)*.
 > Please validate on testnet before using on mainnet.
 
 (1) run `npm install` & create `.env` & inter `provider url` and `private key`
